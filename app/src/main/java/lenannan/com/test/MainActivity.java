@@ -13,8 +13,12 @@ public class MainActivity extends AppCompatActivity {
 
         String a = new String();
 
+        String b = new String();
         if ("ok".equals(a)){
             Toast.makeText(MainActivity.this, "dfdfdf", Toast.LENGTH_SHORT).show();
+        }
+        if ("off".equals(b)){
+
         }
     }
 }
